@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05F50CB3178C0A270063A946 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F50CB2178C0A270063A946 /* UIKit.framework */; };
+		05F50CB5178C0A270063A946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F50CB4178C0A270063A946 /* Foundation.framework */; };
+		05F50CB7178C0A270063A946 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F50CB6178C0A270063A946 /* CoreGraphics.framework */; };
+		05F50CBD178C0A270063A946 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05F50CBB178C0A270063A946 /* InfoPlist.strings */; };
+		05F50CBF178C0A270063A946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F50CBE178C0A270063A946 /* main.m */; };
+		05F50CC3178C0A270063A946 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F50CC2178C0A270063A946 /* AppDelegate.m */; };
+		05F50CC5178C0A270063A946 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F50CC4178C0A270063A946 /* Default.png */; };
+		05F50CC7178C0A270063A946 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F50CC6178C0A270063A946 /* Default@2x.png */; };
+		05F50CC9178C0A270063A946 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F50CC8178C0A270063A946 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05F50CAF178C0A270063A946 /* ThirtyDaysApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirtyDaysApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05F50CB2178C0A270063A946 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05F50CB4178C0A270063A946 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05F50CB6178C0A270063A946 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05F50CBA178C0A270063A946 /* ThirtyDaysApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThirtyDaysApp-Info.plist"; sourceTree = "<group>"; };
+		05F50CBC178C0A270063A946 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05F50CBE178C0A270063A946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05F50CC0178C0A270063A946 /* ThirtyDaysApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ThirtyDaysApp-Prefix.pch"; sourceTree = "<group>"; };
+		05F50CC1178C0A270063A946 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05F50CC2178C0A270063A946 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05F50CC4178C0A270063A946 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		05F50CC6178C0A270063A946 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		05F50CC8178C0A270063A946 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05F50CAC178C0A270063A946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F50CB3178C0A270063A946 /* UIKit.framework in Frameworks */,
+				05F50CB5178C0A270063A946 /* Foundation.framework in Frameworks */,
+				05F50CB7178C0A270063A946 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F50CA6178C0A270063A946 = {
+			isa = PBXGroup;
+			children = (
+				05F50CB8178C0A270063A946 /* ThirtyDaysApp */,
+				05F50CB1178C0A270063A946 /* Frameworks */,
+				05F50CB0178C0A270063A946 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05F50CB0178C0A270063A946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05F50CAF178C0A270063A946 /* ThirtyDaysApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05F50CB1178C0A270063A946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05F50CB2178C0A270063A946 /* UIKit.framework */,
+				05F50CB4178C0A270063A946 /* Foundation.framework */,
+				05F50CB6178C0A270063A946 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05F50CB8178C0A270063A946 /* ThirtyDaysApp */ = {
+			isa = PBXGroup;
+			children = (
+				05F50CC1178C0A270063A946 /* AppDelegate.h */,
+				05F50CC2178C0A270063A946 /* AppDelegate.m */,
+				05F50CB9178C0A270063A946 /* Supporting Files */,
+			);
+			path = ThirtyDaysApp;
+			sourceTree = "<group>";
+		};
+		05F50CB9178C0A270063A946 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F50CBA178C0A270063A946 /* ThirtyDaysApp-Info.plist */,
+				05F50CBB178C0A270063A946 /* InfoPlist.strings */,
+				05F50CBE178C0A270063A946 /* main.m */,
+				05F50CC0178C0A270063A946 /* ThirtyDaysApp-Prefix.pch */,
+				05F50CC4178C0A270063A946 /* Default.png */,
+				05F50CC6178C0A270063A946 /* Default@2x.png */,
+				05F50CC8178C0A270063A946 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05F50CAE178C0A270063A946 /* ThirtyDaysApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05F50CCC178C0A270063A946 /* Build configuration list for PBXNativeTarget "ThirtyDaysApp" */;
+			buildPhases = (
+				05F50CAB178C0A270063A946 /* Sources */,
+				05F50CAC178C0A270063A946 /* Frameworks */,
+				05F50CAD178C0A270063A946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThirtyDaysApp;
+			productName = ThirtyDaysApp;
+			productReference = 05F50CAF178C0A270063A946 /* ThirtyDaysApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05F50CA7178C0A270063A946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dunya Kirkali";
+			};
+			buildConfigurationList = 05F50CAA178C0A270063A946 /* Build configuration list for PBXProject "ThirtyDaysApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05F50CA6178C0A270063A946;
+			productRefGroup = 05F50CB0178C0A270063A946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F50CAE178C0A270063A946 /* ThirtyDaysApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F50CAD178C0A270063A946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F50CBD178C0A270063A946 /* InfoPlist.strings in Resources */,
+				05F50CC5178C0A270063A946 /* Default.png in Resources */,
+				05F50CC7178C0A270063A946 /* Default@2x.png in Resources */,
+				05F50CC9178C0A270063A946 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05F50CAB178C0A270063A946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F50CBF178C0A270063A946 /* main.m in Sources */,
+				05F50CC3178C0A270063A946 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05F50CBB178C0A270063A946 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05F50CBC178C0A270063A946 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05F50CCA178C0A270063A946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05F50CCB178C0A270063A946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05F50CCD178C0A270063A946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThirtyDaysApp/ThirtyDaysApp-Prefix.pch";
+				INFOPLIST_FILE = "ThirtyDaysApp/ThirtyDaysApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05F50CCE178C0A270063A946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ThirtyDaysApp/ThirtyDaysApp-Prefix.pch";
+				INFOPLIST_FILE = "ThirtyDaysApp/ThirtyDaysApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05F50CAA178C0A270063A946 /* Build configuration list for PBXProject "ThirtyDaysApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F50CCA178C0A270063A946 /* Debug */,
+				05F50CCB178C0A270063A946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05F50CCC178C0A270063A946 /* Build configuration list for PBXNativeTarget "ThirtyDaysApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05F50CCD178C0A270063A946 /* Debug */,
+				05F50CCE178C0A270063A946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05F50CA7178C0A270063A946 /* Project object */;
+}
